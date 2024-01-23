@@ -4,8 +4,8 @@ import com.commerzbank.library.model.Book;
 
 import java.util.List;
 
-public interface BookRepository {
-    List<Book> getAll();
+public interface Repository<T> {
+    List<T> findAll();
 
-    Book create(Book book);
+    T save(T object);
 }
