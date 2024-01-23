@@ -9,8 +9,8 @@ public class Book {
     private String author;
     private BookStatus bookStatus;
 
-    public Book(UUID id, String title, String author, BookStatus bookStatus) {
-        this.id = id;
+    public Book(String title, String author, BookStatus bookStatus) {
+        this.id = UUID.randomUUID();
         this.title = title;
         this.author = author;
         this.bookStatus = bookStatus;
