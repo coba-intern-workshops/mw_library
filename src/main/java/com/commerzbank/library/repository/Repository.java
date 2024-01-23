@@ -1,4 +1,4 @@
-package com.commerzbank.library.book;
+package com.commerzbank.library.repository;
 
 import com.commerzbank.library.model.Book;
 

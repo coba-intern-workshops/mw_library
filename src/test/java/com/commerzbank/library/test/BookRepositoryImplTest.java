@@ -1,7 +1,6 @@
 package com.commerzbank.library.test;
 
-import com.commerzbank.library.book.Repository;
-import com.commerzbank.library.book.BookRepositoryImpl;
+import com.commerzbank.library.repository.BookRepositoryImpl;
 import com.commerzbank.library.model.Book;
 import com.commerzbank.library.model.BookStatus;
 import org.junit.jupiter.api.BeforeEach;

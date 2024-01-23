@@ -1,6 +1,7 @@
-package com.commerzbank.library.book;
+package com.commerzbank.library.service;
 
 import com.commerzbank.library.model.Book;
+import com.commerzbank.library.repository.BookRepositoryImpl;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
